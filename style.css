@@ -1,0 +1,500 @@
+        * {
+            padding: 0 !important;
+            margin: 0 !important;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            text-decoration: none !important;
+        }
+        
+        li {
+            display: inline;
+            list-style-type: none;
+        }
+        /* START OF HEADER */
+        /* START OF HEADERTOP */
+        
+        .headtop {
+            box-sizing: border-box;
+            background-color: #4169E1;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 5px !important;
+            min-height: 50px;
+            font-size: 14px;
+        }
+        
+        .icon {
+            cursor: pointer;
+        }
+        
+        .headquotation {
+            color: #fff;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        
+        .button {
+            /* 
+    position: absolute;
+    top: 10px;
+    right: 100px; */
+            /* float: right;
+    margin: 0;
+    margin-right: 2rem; */
+        }
+        
+        .topheadbutton {
+            padding: 2px !important;
+            color: darkgreen;
+            cursor: pointer;
+        }
+        
+        .icon li {
+            padding-right: 1.5rem !important;
+        }
+        /* END OF HEADERTOP */
+        /* START OF HEADER NAVIGATION BAR */
+        /* .headnavbar {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        background-color: #E9E9E9;
+        width: 100%;
+        min-height: 70px;
+        position: fixed;
+        top: 60px;
+        z-index: 1;
+        border: 1px solid lightgray;
+    } */
+        
+        .navbar li {
+            padding: 1rem !important;
+        }
+        
+        .nav-item a:hover {
+            padding: 5px !important;
+            color: #fff !important;
+            background-color: #4169E1 !important;
+        }
+        /*     
+    .logo img {
+        max-width: 220px;
+        max-height: 50px;
+        position: relative;
+        left: 50px;
+    }
+    /* .navbar {
+        float: right;
+        margin: 0;
+        margin-right: 2rem;
+        margin-top: 0.7rem;
+    }*/
+        /*     
+    
+    
+    .navbar a {
+        font-family: sans-serif;
+        color: black;
+        display: inline-block;
+    }
+    
+    .navbar a:hover {
+        display: inline-block;
+        color: white;
+        padding: 5px;
+        background-color: #4169E1;
+        border: none;
+        border-radius: 20px;
+    }
+    
+    .home {
+        display: inline-block;
+        padding: 5px;
+        background-color: #4169E1;
+        border: none;
+        border-radius: 20px;
+        margin: 0;
+    }
+    
+     */
+        /* END  OF HEADER NAVIGATION */
+        /* START OF HEADER  */
+        /* START OF SLIDER */
+        /* .slider {
+        background: url(slider12.jpg) no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 500px;
+        margin: 0;
+    }
+    
+    .Slider img {
+        width: 100%;
+        height: 100%;
+    } */
+        /* END OF SLIDER   */
+        /* START OF NOTIFICATION */
+        
+        .notification {
+            width: 96%;
+            /* position: relative;
+     top: 12px;
+    left: 2%; */
+            background-color: #4169E1;
+            color: white;
+            margin: 15px !important;
+            box-sizing: border-box;
+        }
+        /* END OF NOTIFICATION */
+        /* START OF INTRODUCTION */
+        
+        .introduction {
+            background-color: #E9E9E9;
+            width: 100%;
+            /* text-align: center !important; */
+            /* height: 50%; */
+        }
+        /* START OF MEDIA QUERY */
+        /* END OF MEDIAQUERY */
+        
+        .introhead {
+            text-align: center !important;
+        }
+        
+        .intro {
+            color: #4169E1;
+            font-size: 3rem;
+            text-align: center !important;
+        }
+        
+        .duction {
+            color: green;
+            font-size: 3rem;
+            text-align: center !important;
+        }
+        
+        .intrologo img {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: 90px;
+            left: 550px;
+        }
+        
+        .introduction p {
+            color: gray;
+            padding-left: 120px !important;
+            padding-right: 120px !important;
+            padding-top: 40px !important;
+            line-height: 2rem !important;
+        }
+        /* END OF INTRODUCTION */
+        /* START OF SECTION ABOUT */
+        
+        .about {
+            background-color: #4169E1;
+            min-height: 200px;
+            /* padding: 70px; */
+            display: flex;
+            justify-content: space-around !important;
+            flex-wrap: wrap;
+            color: #fff;
+            /* text-align: center !important; */
+            /* margin-bottom: 10px; */
+        }
+        /* .about img {
+            display: block;
+            justify-content: center !important;
+            align-items: center !important;
+        } */
+        
+        .dastarkhawan img,
+        .family img,
+        .medical img,
+        .education img {
+            margin: 15% 0 0 40% !important;
+        }
+        
+        .dastarkhawan,
+        .family,
+        .medical,
+        .education {
+            margin: 0;
+            margin-left: 4rem;
+        }
+        
+        .about h2 {
+            text-align: center;
+            font-weight: 600;
+            font-size: 2rem;
+        }
+        
+        .about h5 {
+            font-size: 1rem;
+        }
+        
+        .about img {
+            width: 40px;
+            height: 40px;
+        }
+        
+        .dastarkhawan img {
+            border-radius: 10px;
+            /* position: relative;
+    top: 0px;
+    left: 100px; */
+        }
+        
+        .family img {
+            border-radius: 10px;
+            /* position: relative;
+    top: 0px;
+    left: 110px; */
+        }
+        
+        .medical img {
+            /* border-radius: 10px; */
+            /* position: relative;
+    top: 0px;
+    left: 60px; */
+        }
+        
+        .education img {
+            /* border-radius: 10px; */
+            /* position: relative;
+    top: 0px;
+    left: 60px; */
+        }
+        /* END OF ABOUT */
+        /* START OF SERVICES */
+        
+        .services {
+            /* width: 1400px; */
+            /* min-height: 600px; */
+            color: #4169E1;
+            background-color: #E9E9E9;
+        }
+        
+        .introhead1 {
+            display: block;
+            text-align: center;
+        }
+        
+        .intro1 {
+            font-size: 3rem;
+        }
+        
+        .duction1 {
+            color: green;
+            font-size: 3rem;
+        }
+        
+        .services1 {
+            width: 100%;
+            display: flow-root;
+            margin: 2% 0% 2% 10% !important;
+            /* margin-left: 100px !important; */
+        }
+        
+        .services1 h4 {
+            color: #4169E1;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        .bac {
+            background-color: #ffff;
+            width: 300px;
+            height: 200px;
+            margin: 20px !important;
+            text-align: center;
+            padding: 2rem !important;
+        }
+        /* .serviceimg {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+} */
+        /* MISSION AND UPCOMINGPROJECTS */
+        
+        .mission {
+            padding: 50px 30px 30px 30px !important;
+            color: #4169E1;
+        }
+        
+        .hepatitis {
+            background-color: #E9E9E9;
+        }
+        
+        .mission_heading {
+            margin-left: 45px !important;
+            margin-bottom: 10px !important;
+        }
+        
+        .missionpart {
+            padding: 20px !important;
+            text-align: center;
+            display: flex;
+            background-color: #E9E9E9;
+            margin: 20px 0px 20px 47px !important;
+            width: 400px;
+            height: 70px;
+        }
+        
+        .missionpart h4 {
+            margin-left: 20px !important;
+        }
+        /* END OF  MISSION */
+        /* START OF IMAGE GALLERY */
+        
+        .imagegallary {
+            color: #4169E1;
+        }
+        
+        .gleerimg {
+            padding-top: 10rem !important;
+            padding-bottom: 10rem !important;
+            margin-bottom: 30px !important;
+        }
+        
+        .galeerimg img {
+            width: 300px;
+            height: 200px;
+            margin-right: 10px !important;
+        }
+        /* END OF GALLERY IMAGES */
+        
+        .contactinformation {
+            background-color: black;
+            padding-top: 100px !important;
+            padding-bottom: 20px !important;
+            padding-left: 40px !important;
+            color: #fff;
+            display: flex;
+            min-height: 500px !important;
+        }
+        
+        .phone1 li {
+            line-height: 3rem;
+        }
+        
+        .phone img {
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+        }
+        
+        .usefullink {
+            margin-left: 600px !important;
+            /* width: 200px; */
+        }
+        
+        .socialicon {
+            padding: 2rem;
+        }
+        
+        .socialicon img {
+            width: 30px;
+            height: 30px;
+            border-radius: 10px !important;
+            margin-right: 1rem !important;
+        }
+        /* END OF SOCIAL CONTACT */
+        
+        footer {
+            background-color: #4169E1;
+            color: #fff;
+            text-align: center;
+            padding-top: 5px !important;
+            padding-bottom: 5px !important;
+        }
+        
+        @media only screen and (max-width: 400px) {
+            .introduction {
+                background-color: #E9E9E9;
+                width: 100% !important;
+            }
+            .intro {
+                color: #4169E1;
+                font-size: 2rem !important;
+            }
+            .duction {
+                color: green;
+                font-size: 2rem !important;
+            }
+            .introduction p {
+                color: gray;
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+                padding-top: 5px !important;
+            }
+            .about {
+                background-color: #4169E1;
+                /* padding: 70px; */
+                display: block;
+                align-items: flex-start !important;
+                color: #fff;
+                /* text-align: center !important; */
+                /* margin-bottom: 10px; */
+            }
+            .about h2,
+            h5 {
+                text-align: center !important;
+            }
+            .dastarkhawan img,
+            .family img,
+            .medical img,
+            .education img {
+                margin: 10% 0 0 40% !important;
+            }
+            /* START OF SERVICES */
+            .services1 {
+                /* width: 100%;
+                display: flow-root; */
+                margin: 1% 0% 1% 6% !important;
+                /* margin-left: 100px !important; */
+            }
+            .duction1 {
+                color: green;
+                font-size: 1.5rem !important;
+            }
+            .intro1 {
+                color: #4169E1;
+                font-size: 1.5rem !important;
+            }
+            /* START OF MISSION */
+            .mission_heading {
+                margin-left: 10px !important;
+                margin-bottom: 10px !important;
+                font-size: 1.5rem !important;
+            }
+            .missionpart {
+                padding: 20px !important;
+                text-align: center;
+                display: flex;
+                background-color: #E9E9E9;
+                margin: 10px 0px 10px 10px !important;
+                width: 400px;
+                height: 70px;
+            }
+            .missionpart h4 {
+                margin-left: 7px !important;
+                font-size: 1.5rem;
+            }
+            /* END OF MISSION */
+            .gleerimg {
+                padding-top: 10px !important;
+                padding-bottom: 10px !important;
+            }
+            .gleerimg img {
+                margin-left: 10px !important;
+            }
+            .usefullink {
+                margin-left: 0px !important;
+                /* width: 200px; */
+            }
+        }
